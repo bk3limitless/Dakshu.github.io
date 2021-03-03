@@ -6,22 +6,28 @@
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
         <!-- My Stylesheet -->
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     
     <body>
+	<div id="main">
         <div class="wish">
             Happy Birthday
         </div>
 		
         <div class="cake">
+					
             <div class="plate"></div>
             <div class="layer"></div>
             <div class="icing">
                 <div class="name">
                     <p>Happy Birthday <br/> <span id="name">DAKSH</span></p>
                 </div>
+				
             </div>
+			<div id="test">
+			<img class="videoplay" src="images/play.png" alt="Video thumbnail" />
+			</div>
             <div class="candle1">
                 <div class="flame1"></div>
             </div>
@@ -41,10 +47,25 @@
         <div class ="text">May all your dreams come true and May God crown you with all the success in life. Wishing you many returns of this day. Happy birthday! From,KUNAL
         </div>
         
-        <audio id="HBD" >
-            <source src="https://bk3limitless.github.io/bubu.github.io/kaudio.MP3">
-        </audio>
-        <!-- JavaScript Page -->
-        <script src="FUNCTION.JS" type="text/javascript"></script>
+       <!-- <audio id="HBD" >
+            
+			<source src="kaudio.ogg" type="audio/ogg">
+			<source src="kaudio.mp3" type="audio/mpeg">
+        </audio>-->
+		 <audio id="HBD"   src="audio/kaudio.mp3"> Your browser does not support the <code>audio</code> element. </audio>
+		 </div>
+		 <div id="secendory" class="hide">
+		 <video id="video" width="100%" height="100%" controls>
+  <source src="video/sample.mp4" type="video/mp4">
+  
+Your browser does not support the video tag.
+</video>
+		 
+		 </div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		 <!-- JavaScript Page -->
+        <script src="js/FUNCTION.JS" type="text/javascript"></script>
     </body>
-</html>x
+</html>
