@@ -20,7 +20,8 @@ vid.onended = function() {
 	$("#secendory").hide();
 	$("#third").removeClass("hide");
 	$("#third").fireworks({ sound: true, opacity: 0.9, width: '100%', height: '100%' });
-	alert("me hu");
+	
+	
 	
 }
 
