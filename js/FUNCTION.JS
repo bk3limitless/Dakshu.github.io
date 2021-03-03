@@ -15,6 +15,16 @@ aud.onended = function() {
   
 };
 
+var vid = document.getElementById("video");
+vid.onended = function() {
+	$("#secendory").hide();
+	$("#third").removeClass("hide");
+	$("#third").fireworks({ sound: true, opacity: 0.9, width: '100%', height: '100%' });
+	alert("me hu");
+	
+}
+
+
 $("#test").on('click', function(event){
     $("#test").hide();
 	
