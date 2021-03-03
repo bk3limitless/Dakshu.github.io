@@ -1,5 +1,5 @@
 
-alert("TOUCH THE CAKE 🎂 AND ENJOY THE PARTY 🎶🎉🎊");
+//alert("TOUCH THE CAKE 🎂 AND ENJOY THE PARTY 🎶🎉🎊");
 
 //audio event
 var aud = document.getElementById("HBD");
@@ -17,7 +17,7 @@ aud.onended = function() {
 
 $("#test").on('click', function(event){
     $("#test").hide();
-	alert("test");
+	
     var audio = document.getElementById("HBD");
     audio.play();
 	
