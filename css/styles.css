@@ -263,7 +263,10 @@ canvas{
 	cursor: crosshair;
 	display: block;
 }
-
+.mobvideo{
+	max-width: 100%;
+  height: auto;
+}
 .text {
     margin: 0;
     padding: 0;
