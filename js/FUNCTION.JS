@@ -19,7 +19,7 @@ var vid = document.getElementById("video");
 vid.onended = function() {
 	$("#secendory").hide();
 	$("#third").removeClass("hide");
-	$("#third").fireworks({ sound: true, opacity: 0.6, width: '100%', height: '100%' });
+	$("#third").fireworks({ sound: true, opacity: 0.3, width: '100%', height: '100%' });
 	
 	
 	
